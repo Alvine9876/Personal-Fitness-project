@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" id="home-link">Home</a></li>
+      <li><a href="#" id="workout-link">Workout Program</a></li>
+      <li><a href="#" id="meal-link">Meal Plan</a></li>
+      <li><a href="#" id="contact-link">Contact Us</a></li>
+      <li><a href="#" id="profile-link">Profile Setup</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Page Section -->
+  <section id="home" class="page">
+    <h1>Welcome to Personal Fitness</h1>
+    <img src="images/workout.png" alt="Fitness Hero Image">
+    <p>Your journey to a healthier, fitter you starts here!</p>
+  </section>
+
+  <!-- Workout Program Page Section -->
+  <section id="workout" class="page">
+    <h1>Workout Program</h1>
+    <p>Our expert-designed workout programs will help you reach your fitness goals. Choose a program below:</p>
+    <ul>
+      <li><button id="beginner-btn">Beginner Program</button></li>
+      <li><button id="intermediate-btn">Intermediate Program</button></li>
+      <li><button id="advanced-btn">Advanced Program</button></li>
+    </ul>
+  </section>
+
+  <!-- Meal Plan Page Section -->
+  <section id="meal" class="page">
+    <h1>Meal Plan</h1>
+    <p>Here is a sample meal plan to fuel your workouts:</p>
+    <ul>
+      <li>Breakfast: Oatmeal with fruits</li>
+      <li>Lunch: Grilled chicken with quinoa</li>
+      <li>Dinner: Salmon with steamed veggies</li>
+    </ul>
+  </section>
+
+  <!-- Contact Us Page Section -->
+  <section id="contact" class="page">
+    <h1>Contact Us</h1>
+    <p>If you have any questions, feel free to reach out to us!</p>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Profile Setup Page Section -->
+  <section id="profile" class="page">
+    <h1>Profile Setup</h1>
+    <form id="profile-form">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="number" id="age" placeholder="Age" required>
+      <select id="gender" required>
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <select id="fitness-goal" required>
+        <option value="">Select Fitness Goal</option>
+        <option value="Weight Loss">Weight Loss</option>
+        <option value="Muscle Gain">Muscle Gain</option>
+        <option value="General Fitness">General Fitness</option>
+      </select>
+      <button type="submit">Save Profile</button>
+    </form>
+
+    <!-- User Progress -->
+    <div id="user-progress">
+      <h3>Your Progress</h3>
+      <p>Completed Tasks: <span id="tasks-completed">0</span></p>
+      <p>Daily Goals: <span id="daily-goals">0</span></p>
+    </div>
+
+    <button id="complete-task">Complete Today's Task</button>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
