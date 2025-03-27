@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Fitness</title>
+  <title>B-FITNESS</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
+
   <nav>
+    <h1>B-Fitness</h1>
     <ul>
       <li><a href="#" id="home-link">Home</a></li>
       <li><a href="#" id="workout-link">Workout Program</a></li>
@@ -18,14 +19,14 @@
     </ul>
   </nav>
 
-  <!-- Home Page Section -->
+  <!-- Home-Page -->
   <section id="home" class="page">
     <h1>Welcome to Personal Fitness</h1>
-    <img src="images/workout.png" alt="Fitness Hero Image">
+    <img src="images/workout.png" alt="Fitness Image">
     <p>Your journey to a healthier, fitter you starts here!</p>
   </section>
 
-  <!-- Workout Program Page Section -->
+  <!-- Workout-Program-Page -->
   <section id="workout" class="page">
     <h1>Workout Program</h1>
     <p>Our expert-designed workout programs will help you reach your fitness goals. Choose a program below:</p>
@@ -36,7 +37,7 @@
     </ul>
   </section>
 
-  <!-- Meal Plan Page Section -->
+  <!-- Meal-plan- Page -->
   <section id="meal" class="page">
     <h1>Meal Plan</h1>
     <p>Here is a sample meal plan to fuel your workouts:</p>
@@ -47,7 +48,7 @@
     </ul>
   </section>
 
-  <!-- Contact Us Page Section -->
+  <!-- Contact-Us-Page -->
   <section id="contact" class="page">
     <h1>Contact Us</h1>
     <p>If you have any questions, feel free to reach out to us!</p>
@@ -59,7 +60,7 @@
     </form>
   </section>
 
-  <!-- Profile Setup Page Section -->
+<!-- profile-setup page -->
   <section id="profile" class="page">
     <h1>Profile Setup</h1>
     <form id="profile-form">
@@ -80,7 +81,6 @@
       <button type="submit">Save Profile</button>
     </form>
 
-    <!-- User Progress -->
     <div id="user-progress">
       <h3>Your Progress</h3>
       <p>Completed Tasks: <span id="tasks-completed">0</span></p>
@@ -89,7 +89,8 @@
 
     <button id="complete-task">Complete Today's Task</button>
   </section>
-
+  <div id="exercises-container">
+  </div>
   <script src="index.js"></script>
 </body>
 </html>

@@ -1,4 +1,19 @@
-/* Reset some basic styles */
+h1 {
+  color: blue;
+  font-size: larger;
+  font-style: italic;
+}
+html, body {
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+}
+.page {
+  min-height: 100vh;
+  background-size: cover; 
+  background-position: unset;
+  background-repeat: no-repeat;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +22,8 @@
 
 body {
   font-family: Arial, sans-serif;
- background-image: ;
- 
+
+
 }
 
 nav {
@@ -40,8 +55,10 @@ nav ul li a {
 }
 
 #home {
-  display: block;
-  background-image: url(images/home.jpg);
+ background-color: burlywood;
+  color: black; 
+  padding: 50px;
+  font-size: xx-large;
 }
 
 h1 {
@@ -88,5 +105,38 @@ button:hover {
 #user-progress {
   margin-top: 20px;
   font-size: 1.2rem;
-  background-image: url(images/stuv.jpg);
+
 }
+#profile {
+  background-image: url(images/nature.jpg);
+  background-size: cover;
+  background-position: top;
+  color: black; 
+  padding: 50px;
+}
+#contact {
+  background-image: url(images/contact.jpg); 
+  background-size: cover;
+  color: black; 
+  padding: 50px;
+font-size: xx-large;
+}
+  #meal {
+    background-image: url(images/konjiro.jpg);
+  background-size: cover;
+  background-position: bottom;
+  color: black; 
+  padding: 50px;
+  color: #ccc;
+  font-size: xx-large;
+  }
+  
+  #workout {
+    background-image: url(images/muscular.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: black; 
+    padding: 50px;
+    color: #ccc;
+    font-size: xx-large;
+  }
