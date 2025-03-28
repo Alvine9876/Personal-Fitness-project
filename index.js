@@ -136,6 +136,4 @@ async function fetchExercises() {
   console.log(data.results);
 }
 
-
 fetchExercises();
-
